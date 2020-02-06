@@ -89,6 +89,40 @@ pre {
     word-wrap: break-word;
 }
 
+/* Specific elements
+======================================================================== */
+
+header,main,footer {
+    padding: 0 2em;
+}
+
+header {
+    border-bottom: 1px solid rgb(157, 189, 198);
+    margin-bottom: 1em;
+    background: rgb(218, 234, 239);
+}
+
+header h1 {
+    padding-top: 1em;
+    color: rgb(127, 64, 45);
+}
+
+main h2 {
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
+}
+
+main h3 {
+    margin-top: 0.2em;
+    margin-bottom: 0;
+}
+
+footer {
+    padding: 2em;
+    background: rgb(157, 189, 198);
+    font-size: 0.8em;
+}
+
 /* Forms
 ========================================================================== */
 
